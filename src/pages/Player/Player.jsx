@@ -36,7 +36,7 @@ const Player = () => {
       <img
         src={back_arrow_icon}
         onClick={() => {
-          navigate(-2);
+          navigate("/");
         }}
       />
       <iframe
